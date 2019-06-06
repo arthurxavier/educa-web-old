@@ -1,0 +1,8 @@
+.image-ufu {
+  justify-content: center;
+  display: flex;
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
