@@ -16,7 +16,7 @@ const Highlights = () => (
       <Card />
     </div>
     <div className="d-flex justify-content-center ">
-    <button class="btn btn-primary button-explore mt-3" type="submit">Explore todos os cursos</button>
+    <button className="btn btn-primary button-explore mt-3" type="submit">Explore todos os cursos</button>
     </div>
   </div>
 );
