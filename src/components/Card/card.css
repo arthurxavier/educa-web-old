@@ -1,0 +1,17 @@
+.card-weight {
+  max-width: 18rem;
+}
+
+.card-image-position{
+  object-fit: cover;
+}
+
+.card-button{
+  background: #007bff;
+  color: #FFFF;
+}
+
+.card-bord{
+  border-color: #132d49;
+  border-width: 1px;
+}
