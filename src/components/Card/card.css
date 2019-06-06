@@ -1,9 +1,13 @@
 .card-weight {
-  max-width: 18rem;
+  max-width: 16rem;
 }
 
+/*TODO: Alterar para imagens genéricas */
 .card-image-position{
   object-fit: cover;
+  height: 120px;
+  object-position: 80% 80%;
+  max-height:150px;
 }
 
 .card-button{
