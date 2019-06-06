@@ -1,12 +1,12 @@
 import React from "react";
 import Header from './components/Header/header';
 import Footer from './components/Footer/footer';
-import Home from './pages/Home/home';
+import Routes from './routes';
 
 const App = () => (
   <div className="App">
     <Header/>
-    <Home/>
+    <Routes/>
     <Footer/>
   </div>
   );
