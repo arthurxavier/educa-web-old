@@ -1,0 +1,27 @@
+.image-presenter {
+  object-fit: contain;
+  object-position:center;
+  height: 650px;
+  object-position: 53% 80%;
+  background: #C0F8FC;
+}
+
+.font-title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: #007bff;
+}
+
+.text-presenter{
+  height: 85%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.font-body{
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  font-size: 18px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
