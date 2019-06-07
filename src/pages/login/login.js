@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import Presenter from "../../components/Presenter/presenter";
-import Institutions from "./../../components/Institutions/institutions";
-import Highlights from "./../../components/Highlights/highlights";
+import './login.css'
 
 export default class Login extends Component{
 
@@ -20,23 +18,24 @@ export default class Login extends Component{
         <div className="modal fade" id="loginModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div className="modal-dialog" role="document">
             <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">Já é nosso aluno?</h5>
+              <div className="modal-header" id="modalLabel">
+                <h4 className="modal-title">Já é nosso aluno?</h4>
+                <p className="modal-title">Faça seu login e boa aula!</p>
               </div>
               <div className="modal-body">
                 <form>
-                  <div className="form-group">
-                    <label className="col-form-label">Login:</label>
-                    <input type="text" className="form-control" id="recipient-name"/>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com"/>
                   </div>
-                  <div className="form-group">
-                    <label className="col-form-label">Password:</label>
-                    <input type="text" className="form-control" id="recipient-password"/>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Insira sua senha"/>
                   </div>
                 </form>
               </div>
               <div className="modal-footer">
-                <button type="button" className="btn btn-primary" onClick={this.login}>Send message</button>
+                <button type="button" className="btn btn-primary" onClick={this.login}>Entrar</button>
               </div>
             </div>
           </div>

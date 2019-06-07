@@ -4,7 +4,10 @@ import Card from "./../Card/card";
 import "./higlights.css";
 
 const Highlights = () => (
-  <div className="container">
+  <div className="container rs-highlights">
+    <h2 id="teste" className="text-center mb-4">
+      Cursos Mais Populares
+    </h2>
     <div className="row d-flex justify-content-center">
       <Card />
       <Card />
@@ -16,7 +19,12 @@ const Highlights = () => (
       <Card />
     </div>
     <div className="d-flex justify-content-center ">
-    <button className="btn btn-primary button-explore mt-3" type="submit">Explore todos os cursos</button>
+      <button
+        className="btn btn-primary button-explore mt-4 mb-5"
+        type="submit"
+      >
+        Explore todos os cursos
+      </button>
     </div>
   </div>
 );

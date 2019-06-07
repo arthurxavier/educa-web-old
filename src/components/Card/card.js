@@ -8,7 +8,7 @@ const Card = () => (
     <div className="card-body">
       <h4 className="card-title">Java Script</h4>
       <p className="card-text">Programando na linguagem da web</p>
-      <a href="login" className="btn card-button">Acessar</a>
+      <a href="/" className="btn card-button">Acessar</a>
     </div>
   </div>
 );

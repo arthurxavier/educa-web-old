@@ -6,3 +6,13 @@
   width: auto;
   height: auto;
 }
+
+
+.rs-institutions::after{
+  border-top: 1px solid #e1e1e1;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 50px;
+}
