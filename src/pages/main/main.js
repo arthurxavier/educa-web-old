@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Home from './../home/home';
+import Home from './../Home/home';
 import Login from './../login/login';
 import Register from './../register/register';
 
